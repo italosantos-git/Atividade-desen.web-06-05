@@ -18,3 +18,27 @@
     background: #ccc;
     border-radius: 4px;
 }
+
+.card-img-top:hover{
+    transform: scale(1.0002);
+    transition: transform ease-in-out 0.3s;
+    cursor: pointer;
+}
+.card-img-top{
+    transform: scale(0.9);
+    transition: transform ease-in-out 0.3s;
+}
+@media (max-width:1000px){
+    .carousel-item{
+    position: relative;
+    top:80px;
+    background-color: red;
+    }
+}
+
+
+
+
+
+
+
